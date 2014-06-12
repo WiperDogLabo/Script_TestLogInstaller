@@ -1,7 +1,7 @@
 Source test for create wiperdog installation log file (#411).
 ---------------------------------------------
 A. How to test?  
-- Step1: get source Wiperdog_Installer from github
+- Step1: get source Wiperdog_Installer from github with command:  
         git clone https://github.com/wiperdog/wiperdog
 - Step2: run ./run_test.sh with format  
 	*Run each case: ./run_test.sh -p /home/mrtit/Wiperdog_Installer -c Case1  
