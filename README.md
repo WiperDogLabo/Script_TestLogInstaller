@@ -1,10 +1,12 @@
 Source test for create wiperdog installation log file (#411).
 ---------------------------------------------
 A. How to test?  
-- Step1: run ./run_test.sh with format  
-	*Run each case: ./run_test.sh -p /home/mrtit/Wiperdog/1205Wiperdog/ -c Case1  
-	*Run all case: ./run_test.sh -p /home/mrtit/Wiperdog/1205Wiperdog/ -c all  
-- Step2: Check result  
+- Step1: get source Wiperdog_Installer from github
+        git clone https://github.com/wiperdog/wiperdog
+- Step2: run ./run_test.sh with format  
+	*Run each case: ./run_test.sh -p /home/mrtit/Wiperdog_Installer -c Case1  
+	*Run all case: ./run_test.sh -p /home/mrtit/Wiperdog_Installer -c all  
+- Step3: Check result  
 
 B. Case test  
 
